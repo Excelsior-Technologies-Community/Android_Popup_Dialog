@@ -163,6 +163,30 @@ dialogBuilder.showCustomDialog(
 
 ```
 
+## ✨ **showCustomDialog() Function Parameters**
+
+```
+fun showCustomDialog(
+    type: DialogType,                   // Type of dialog (DEFAULT_PROGRESS, LOTTIE_PROGRESS, STANDARD, IOS_STYLE, ERROR, WARNING, SUCCESS, DEFAULT_ALERT)
+    title: String = "",                 // Dialog title text
+    message: String = "",               // Dialog message text
+    iconResId: Int? = null,             // Optional icon drawable resource
+    titleColor: Int = Color.BLACK,      // Title text color
+    messageColor: Int = Color.DKGRAY,   // Message text color
+    messageFontSize: Float? = null,     // Optional message font size in SP
+    positiveText: String = "OK",        // Positive button text
+    negativeText: String? = null,       // Optional negative button text
+    positiveButtonColor: Int = Color.parseColor("#2196F3"), // Positive button color
+    negativeButtonColor: Int = Color.GRAY,                  // Negative button color
+    cancelable: Boolean = true,         // Dialog cancellable flag
+    onPositive: (() -> Unit)? = null,   // Callback for positive button
+    onNegative: (() -> Unit)? = null    // Callback for negative button
+): Dialog
+
+
+
+```
+
 
 
 ## **📄 License**
