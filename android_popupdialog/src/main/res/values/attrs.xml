@@ -1,0 +1,28 @@
+<resources>
+
+    <declare-styleable name="PopupDialogView">
+
+        <!-- Dialog -->
+        <attr name="pd_width" format="dimension"/>
+        <attr name="pd_backgroundColor" format="color"/>
+        <attr name="pd_cornerRadius" format="dimension"/>
+
+        <!-- Icon -->
+        <attr name="pd_icon" format="reference"/>
+        <attr name="pd_iconTint" format="color"/>
+        <attr name="pd_iconSize" format="dimension"/>
+
+        <!-- Title -->
+        <attr name="pd_titleText" format="string"/>
+        <attr name="pd_titleTextColor" format="color"/>
+        <attr name="pd_titleTextSize" format="dimension"/>
+        <attr name="pd_titleFont" format="reference"/>
+
+        <!-- Message -->
+        <attr name="pd_messageText" format="string"/>
+        <attr name="pd_messageTextColor" format="color"/>
+        <attr name="pd_messageTextSize" format="dimension"/>
+        <attr name="pd_messageFont" format="reference"/>
+    </declare-styleable>
+
+</resources>
